@@ -30,3 +30,27 @@ q++;
 console.log("prefix", q);
 ++q;
 console.log("postfix", q);
+//7. Logical Gates
+let e = true;
+let f = false;
+let g = true;
+const AND_gate = e && f && g;
+const OR_gate = e || f || g;
+const Not_gate_e = !e;
+const Not_gate_f = !f;
+const Not_gate_g = !g;
+console.log("AND_gate=", AND_gate);
+console.log("OR_gate=", OR_gate);
+console.log("Not_gate_e=", Not_gate_e);
+console.log("Not_gate_f=", Not_gate_f);
+console.log("Not_gate_g=", Not_gate_g);
+//8. Compound Assignment
+let x = 15;
+x += 3;
+console.log("Adition", x);
+x -= 5;
+console.log("Substraction", x);
+x *= 3;
+console.log("Multiplication", x);
+x /= 10;
+console.log("Division", x);
